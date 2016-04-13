@@ -30,7 +30,7 @@ end
 if __FILE__ == $PROGRAM_NAME
 
 board = Board.new
-player = ComputerPlayer.new(board)
+player = HumanPlayer.new(board)
 game = Game.new(board, player)
 game.play
 
